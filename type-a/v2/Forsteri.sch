@@ -1,0 +1,1536 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5D5D2404
+P 700 700
+F 0 "#FLG01" H 700 775 50  0001 C CNN
+F 1 "PWR_FLAG" H 700 873 50  0000 C CNN
+F 2 "" H 700 700 50  0001 C CNN
+F 3 "~" H 700 700 50  0001 C CNN
+	1    700  700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5D5D335A
+P 1000 700
+F 0 "#FLG02" H 1000 775 50  0001 C CNN
+F 1 "PWR_FLAG" H 1000 873 50  0000 C CNN
+F 2 "" H 1000 700 50  0001 C CNN
+F 3 "~" H 1000 700 50  0001 C CNN
+	1    1000 700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5D5D3D00
+P 1000 700
+F 0 "#PWR02" H 1000 450 50  0001 C CNN
+F 1 "GND" H 1005 527 50  0000 C CNN
+F 2 "" H 1000 700 50  0001 C CNN
+F 3 "" H 1000 700 50  0001 C CNN
+	1    1000 700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5D5D5496
+P 700 700
+F 0 "#PWR01" H 700 550 50  0001 C CNN
+F 1 "VCC" H 718 873 50  0000 C CNN
+F 2 "" H 700 700 50  0001 C CNN
+F 3 "" H 700 700 50  0001 C CNN
+	1    700  700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW6
+U 1 1 5D6B4A0C
+P 6800 4000
+F 0 "SW6" H 6800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 6800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6800 4000 50  0001 C CNN
+F 3 "" H 6800 4000 50  0000 C CNN
+	1    6800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW5
+U 1 1 5D6B4230
+P 5800 4000
+F 0 "SW5" H 5800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 5800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5800 4000 50  0001 C CNN
+F 3 "" H 5800 4000 50  0000 C CNN
+	1    5800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW4
+U 1 1 5D6B3B3C
+P 4800 4000
+F 0 "SW4" H 4800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 4000 50  0001 C CNN
+F 3 "" H 4800 4000 50  0000 C CNN
+	1    4800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW3
+U 1 1 5D6B35A6
+P 3800 4000
+F 0 "SW3" H 3800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3800 4000 50  0001 C CNN
+F 3 "" H 3800 4000 50  0000 C CNN
+	1    3800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW2
+U 1 1 5D6B3007
+P 2800 4000
+F 0 "SW2" H 2800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 4000 50  0001 C CNN
+F 3 "" H 2800 4000 50  0000 C CNN
+	1    2800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW1
+U 1 1 5D6B2316
+P 1800 4000
+F 0 "SW1" H 1800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 1800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1800 4000 50  0001 C CNN
+F 3 "" H 1800 4000 50  0000 C CNN
+	1    1800 4000
+	-1   0    0    1   
+$EndComp
+Text GLabel 1900 4500 0    50   Input ~ 0
+row0
+Text GLabel 1900 5500 0    50   Input ~ 0
+row1
+Text GLabel 1900 6500 0    50   Input ~ 0
+row2
+Text GLabel 1900 7500 0    50   Input ~ 0
+row3
+Text GLabel 1500 3500 0    50   Input ~ 0
+col0
+Text GLabel 2500 3500 0    50   Input ~ 0
+col1
+Text GLabel 4500 3500 0    50   Input ~ 0
+col3
+Text GLabel 5500 3500 0    50   Input ~ 0
+col4
+Text GLabel 6500 3500 0    50   Input ~ 0
+col5
+Text GLabel 7500 3500 0    50   Input ~ 0
+col6
+Text GLabel 8500 3500 0    50   Input ~ 0
+col7
+Text GLabel 9500 3500 0    50   Input ~ 0
+col8
+Text GLabel 10500 3500 0    50   Input ~ 0
+col9
+Text GLabel 12500 3500 0    50   Input ~ 0
+col11
+Text GLabel 11500 3500 0    50   Input ~ 0
+col10
+$Comp
+L power:VCC #PWR06
+U 1 1 5D5B16E9
+P 3150 1800
+F 0 "#PWR06" H 3150 1650 50  0001 C CNN
+F 1 "VCC" V 3167 1928 50  0000 L CNN
+F 2 "" H 3150 1800 50  0001 C CNN
+F 3 "" H 3150 1800 50  0001 C CNN
+	1    3150 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5D5B3182
+P 3150 1600
+F 0 "#PWR03" H 3150 1350 50  0001 C CNN
+F 1 "GND" V 3155 1472 50  0000 R CNN
+F 2 "" H 3150 1600 50  0001 C CNN
+F 3 "" H 3150 1600 50  0001 C CNN
+	1    3150 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5D5B3D61
+P 1250 1800
+F 0 "#PWR05" H 1250 1550 50  0001 C CNN
+F 1 "GND" V 1255 1672 50  0000 R CNN
+F 2 "" H 1250 1800 50  0001 C CNN
+F 3 "" H 1250 1800 50  0001 C CNN
+	1    1250 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 1800 1350 1800
+Wire Wire Line
+	1500 1700 1350 1700
+Wire Wire Line
+	1350 1700 1350 1800
+Connection ~ 1350 1800
+Wire Wire Line
+	1350 1800 1500 1800
+Wire Wire Line
+	2900 1800 3150 1800
+Wire Wire Line
+	3150 1600 2900 1600
+$Comp
+L kbd:SW_PUSH SW43
+U 1 1 5D5BEBC3
+P 3650 1700
+F 0 "SW43" H 3650 1955 50  0000 C CNN
+F 1 "SW_PUSH" H 3650 1864 50  0000 C CNN
+F 2 "kbd:ResetSW_1side" H 3650 1700 50  0001 C CNN
+F 3 "" H 3650 1700 50  0000 C CNN
+	1    3650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1700 2900 1700
+$Comp
+L power:GND #PWR04
+U 1 1 5D5C23CA
+P 3950 1700
+F 0 "#PWR04" H 3950 1450 50  0001 C CNN
+F 1 "GND" H 3955 1527 50  0000 C CNN
+F 2 "" H 3950 1700 50  0001 C CNN
+F 3 "" H 3950 1700 50  0001 C CNN
+	1    3950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW7
+U 1 1 5D70CE53
+P 7800 4000
+F 0 "SW7" H 7800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7800 4000 50  0001 C CNN
+F 3 "" H 7800 4000 50  0000 C CNN
+	1    7800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW8
+U 1 1 5D70D61B
+P 8800 4000
+F 0 "SW8" H 8800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8800 4000 50  0001 C CNN
+F 3 "" H 8800 4000 50  0000 C CNN
+	1    8800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW9
+U 1 1 5D70DB68
+P 9800 4000
+F 0 "SW9" H 9800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9800 4000 50  0001 C CNN
+F 3 "" H 9800 4000 50  0000 C CNN
+	1    9800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW10
+U 1 1 5D70E27B
+P 10800 4000
+F 0 "SW10" H 10800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 10800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10800 4000 50  0001 C CNN
+F 3 "" H 10800 4000 50  0000 C CNN
+	1    10800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW11
+U 1 1 5D70E524
+P 11800 4000
+F 0 "SW11" H 11800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 11800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 11800 4000 50  0001 C CNN
+F 3 "" H 11800 4000 50  0000 C CNN
+	1    11800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW12
+U 1 1 5D70E812
+P 12800 4000
+F 0 "SW12" H 12800 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 12800 4164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 12800 4000 50  0001 C CNN
+F 3 "" H 12800 4000 50  0000 C CNN
+	1    12800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW18
+U 1 1 5D71D972
+P 6800 5000
+F 0 "SW18" H 6800 5255 50  0000 C CNN
+F 1 "SW_PUSH" H 6800 5164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6800 5000 50  0001 C CNN
+F 3 "" H 6800 5000 50  0000 C CNN
+	1    6800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW17
+U 1 1 5D71D978
+P 5800 5000
+F 0 "SW17" H 5800 5255 50  0000 C CNN
+F 1 "SW_PUSH" H 5800 5164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5800 5000 50  0001 C CNN
+F 3 "" H 5800 5000 50  0000 C CNN
+	1    5800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW16
+U 1 1 5D71D97E
+P 4800 5000
+F 0 "SW16" H 4800 5255 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 5164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 5000 50  0001 C CNN
+F 3 "" H 4800 5000 50  0000 C CNN
+	1    4800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW15
+U 1 1 5D71D984
+P 3800 5000
+F 0 "SW15" H 3800 5255 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 5164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3800 5000 50  0001 C CNN
+F 3 "" H 3800 5000 50  0000 C CNN
+	1    3800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW14
+U 1 1 5D71D98A
+P 2800 5000
+F 0 "SW14" H 2800 5255 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 5164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 5000 50  0001 C CNN
+F 3 "" H 2800 5000 50  0000 C CNN
+	1    2800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW13
+U 1 1 5D71D990
+P 1800 5000
+F 0 "SW13" H 1800 5255 50  0000 C CNN
+F 1 "SW_PUSH" H 1800 5164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 1800 5000 50  0001 C CNN
+F 3 "" H 1800 5000 50  0000 C CNN
+	1    1800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW19
+U 1 1 5D71D996
+P 7800 5000
+F 0 "SW19" H 7800 5255 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 5164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7800 5000 50  0001 C CNN
+F 3 "" H 7800 5000 50  0000 C CNN
+	1    7800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW20
+U 1 1 5D71D99C
+P 8800 5000
+F 0 "SW20" H 8800 5255 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 5164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8800 5000 50  0001 C CNN
+F 3 "" H 8800 5000 50  0000 C CNN
+	1    8800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW21
+U 1 1 5D71D9A2
+P 9800 5000
+F 0 "SW21" H 9800 5255 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 5164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9800 5000 50  0001 C CNN
+F 3 "" H 9800 5000 50  0000 C CNN
+	1    9800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW22
+U 1 1 5D71D9A8
+P 10800 5000
+F 0 "SW22" H 10800 5255 50  0000 C CNN
+F 1 "SW_PUSH" H 10800 5164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10800 5000 50  0001 C CNN
+F 3 "" H 10800 5000 50  0000 C CNN
+	1    10800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW23
+U 1 1 5D71D9B4
+P 12800 5000
+F 0 "SW23" H 12800 5255 50  0000 C CNN
+F 1 "SW_PUSH" H 12800 5164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB" H 12800 5000 50  0001 C CNN
+F 3 "" H 12800 5000 50  0000 C CNN
+	1    12800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW29
+U 1 1 5D7257ED
+P 6800 6000
+F 0 "SW29" H 6800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 6800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6800 6000 50  0001 C CNN
+F 3 "" H 6800 6000 50  0000 C CNN
+	1    6800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW28
+U 1 1 5D7257F3
+P 5800 6000
+F 0 "SW28" H 5800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 5800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5800 6000 50  0001 C CNN
+F 3 "" H 5800 6000 50  0000 C CNN
+	1    5800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW27
+U 1 1 5D7257F9
+P 4800 6000
+F 0 "SW27" H 4800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 6000 50  0001 C CNN
+F 3 "" H 4800 6000 50  0000 C CNN
+	1    4800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW26
+U 1 1 5D7257FF
+P 3800 6000
+F 0 "SW26" H 3800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3800 6000 50  0001 C CNN
+F 3 "" H 3800 6000 50  0000 C CNN
+	1    3800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW25
+U 1 1 5D725805
+P 2800 6000
+F 0 "SW25" H 2800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 6000 50  0001 C CNN
+F 3 "" H 2800 6000 50  0000 C CNN
+	1    2800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW24
+U 1 1 5D72580B
+P 1800 6000
+F 0 "SW24" H 1800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 1800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB" H 1800 6000 50  0001 C CNN
+F 3 "" H 1800 6000 50  0000 C CNN
+	1    1800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW30
+U 1 1 5D725811
+P 7800 6000
+F 0 "SW30" H 7800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7800 6000 50  0001 C CNN
+F 3 "" H 7800 6000 50  0000 C CNN
+	1    7800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW31
+U 1 1 5D725817
+P 8800 6000
+F 0 "SW31" H 8800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8800 6000 50  0001 C CNN
+F 3 "" H 8800 6000 50  0000 C CNN
+	1    8800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW32
+U 1 1 5D72581D
+P 9800 6000
+F 0 "SW32" H 9800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9800 6000 50  0001 C CNN
+F 3 "" H 9800 6000 50  0000 C CNN
+	1    9800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW33
+U 1 1 5D725823
+P 10800 6000
+F 0 "SW33" H 10800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 10800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10800 6000 50  0001 C CNN
+F 3 "" H 10800 6000 50  0000 C CNN
+	1    10800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW34
+U 1 1 5D725829
+P 11800 6000
+F 0 "SW34" H 11800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 11800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 11800 6000 50  0001 C CNN
+F 3 "" H 11800 6000 50  0000 C CNN
+	1    11800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW35
+U 1 1 5D72582F
+P 12800 6000
+F 0 "SW35" H 12800 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 12800 6164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 12800 6000 50  0001 C CNN
+F 3 "" H 12800 6000 50  0000 C CNN
+	1    12800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW39
+U 1 1 5D72A1CA
+P 5800 7000
+F 0 "SW39" H 5800 7255 50  0000 C CNN
+F 1 "SW_PUSH" H 5800 7164 50  0000 C CNN
+F 2 "v4r4:SW_Cherry_MX_2.25u_PCB_ReverseStabilizer" H 5800 7000 50  0001 C CNN
+F 3 "" H 5800 7000 50  0000 C CNN
+	1    5800 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW38
+U 1 1 5D72A1D0
+P 4800 7000
+F 0 "SW38" H 4800 7255 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 7164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 7000 50  0001 C CNN
+F 3 "" H 4800 7000 50  0000 C CNN
+	1    4800 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW37
+U 1 1 5D72A1E2
+P 2800 7000
+F 0 "SW37" H 2800 7255 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 7164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 7000 50  0001 C CNN
+F 3 "" H 2800 7000 50  0000 C CNN
+	1    2800 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW36
+U 1 1 5D72A1E8
+P 1800 7000
+F 0 "SW36" H 1800 7255 50  0000 C CNN
+F 1 "SW_PUSH" H 1800 7164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 1800 7000 50  0001 C CNN
+F 3 "" H 1800 7000 50  0000 C CNN
+	1    1800 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW40
+U 1 1 5D72A1EE
+P 8800 7000
+F 0 "SW40" H 8800 7255 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 7164 50  0000 C CNN
+F 2 "v4r4:SW_Cherry_MX_2.00u_PCB_ReverseStabilizer" H 8800 7000 50  0001 C CNN
+F 3 "" H 8800 7000 50  0000 C CNN
+	1    8800 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW41
+U 1 1 5D72A1F4
+P 9800 7000
+F 0 "SW41" H 9800 7255 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 7164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 9800 7000 50  0001 C CNN
+F 3 "" H 9800 7000 50  0000 C CNN
+	1    9800 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW42
+U 1 1 5D72A20C
+P 12800 7000
+F 0 "SW42" H 12800 7255 50  0000 C CNN
+F 1 "SW_PUSH" H 12800 7164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB" H 12800 7000 50  0001 C CNN
+F 3 "" H 12800 7000 50  0000 C CNN
+	1    12800 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5D72C7DC
+P 2100 4250
+F 0 "D1" V 2146 4182 50  0000 R CNN
+F 1 "D_Small" V 2055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 2100 4250 50  0001 C CNN
+F 3 "~" V 2100 4250 50  0001 C CNN
+	1    2100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5D72E427
+P 3100 4250
+F 0 "D2" V 3146 4182 50  0000 R CNN
+F 1 "D_Small" V 3055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 3100 4250 50  0001 C CNN
+F 3 "~" V 3100 4250 50  0001 C CNN
+	1    3100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5D72EA9A
+P 4100 4250
+F 0 "D3" V 4146 4182 50  0000 R CNN
+F 1 "D_Small" V 4055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 4100 4250 50  0001 C CNN
+F 3 "~" V 4100 4250 50  0001 C CNN
+	1    4100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5D72EE65
+P 5100 4250
+F 0 "D4" V 5146 4182 50  0000 R CNN
+F 1 "D_Small" V 5055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 5100 4250 50  0001 C CNN
+F 3 "~" V 5100 4250 50  0001 C CNN
+	1    5100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5D732892
+P 6100 4250
+F 0 "D5" V 6146 4182 50  0000 R CNN
+F 1 "D_Small" V 6055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 6100 4250 50  0001 C CNN
+F 3 "~" V 6100 4250 50  0001 C CNN
+	1    6100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5D732898
+P 7100 4250
+F 0 "D6" V 7146 4182 50  0000 R CNN
+F 1 "D_Small" V 7055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 7100 4250 50  0001 C CNN
+F 3 "~" V 7100 4250 50  0001 C CNN
+	1    7100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5D73289E
+P 8100 4250
+F 0 "D7" V 8146 4182 50  0000 R CNN
+F 1 "D_Small" V 8055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 8100 4250 50  0001 C CNN
+F 3 "~" V 8100 4250 50  0001 C CNN
+	1    8100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5D7328A4
+P 9100 4250
+F 0 "D8" V 9146 4182 50  0000 R CNN
+F 1 "D_Small" V 9055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 9100 4250 50  0001 C CNN
+F 3 "~" V 9100 4250 50  0001 C CNN
+	1    9100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 5D733FFF
+P 10100 4250
+F 0 "D9" V 10146 4182 50  0000 R CNN
+F 1 "D_Small" V 10055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 10100 4250 50  0001 C CNN
+F 3 "~" V 10100 4250 50  0001 C CNN
+	1    10100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 5D734005
+P 11100 4250
+F 0 "D10" V 11146 4182 50  0000 R CNN
+F 1 "D_Small" V 11055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 11100 4250 50  0001 C CNN
+F 3 "~" V 11100 4250 50  0001 C CNN
+	1    11100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 5D73400B
+P 12100 4250
+F 0 "D11" V 12146 4182 50  0000 R CNN
+F 1 "D_Small" V 12055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 12100 4250 50  0001 C CNN
+F 3 "~" V 12100 4250 50  0001 C CNN
+	1    12100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 5D734011
+P 13100 4250
+F 0 "D12" V 13146 4182 50  0000 R CNN
+F 1 "D_Small" V 13055 4182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 13100 4250 50  0001 C CNN
+F 3 "~" V 13100 4250 50  0001 C CNN
+	1    13100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 5D75D17C
+P 2100 5250
+F 0 "D13" V 2146 5182 50  0000 R CNN
+F 1 "D_Small" V 2055 5182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 2100 5250 50  0001 C CNN
+F 3 "~" V 2100 5250 50  0001 C CNN
+	1    2100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 5D75D182
+P 3100 5250
+F 0 "D14" V 3146 5182 50  0000 R CNN
+F 1 "D_Small" V 3055 5182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 3100 5250 50  0001 C CNN
+F 3 "~" V 3100 5250 50  0001 C CNN
+	1    3100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 5D75D188
+P 4100 5250
+F 0 "D15" V 4146 5182 50  0000 R CNN
+F 1 "D_Small" V 4055 5182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 4100 5250 50  0001 C CNN
+F 3 "~" V 4100 5250 50  0001 C CNN
+	1    4100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 5D75D18E
+P 5100 5250
+F 0 "D16" V 5146 5182 50  0000 R CNN
+F 1 "D_Small" V 5055 5182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 5100 5250 50  0001 C CNN
+F 3 "~" V 5100 5250 50  0001 C CNN
+	1    5100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 5D75D194
+P 6100 5250
+F 0 "D17" V 6146 5182 50  0000 R CNN
+F 1 "D_Small" V 6055 5182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 6100 5250 50  0001 C CNN
+F 3 "~" V 6100 5250 50  0001 C CNN
+	1    6100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 5D75D19A
+P 7100 5250
+F 0 "D18" V 7146 5182 50  0000 R CNN
+F 1 "D_Small" V 7055 5182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 7100 5250 50  0001 C CNN
+F 3 "~" V 7100 5250 50  0001 C CNN
+	1    7100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 5D75D1A0
+P 8100 5250
+F 0 "D19" V 8146 5182 50  0000 R CNN
+F 1 "D_Small" V 8055 5182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 8100 5250 50  0001 C CNN
+F 3 "~" V 8100 5250 50  0001 C CNN
+	1    8100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 5D75D1A6
+P 9100 5250
+F 0 "D20" V 9146 5182 50  0000 R CNN
+F 1 "D_Small" V 9055 5182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 9100 5250 50  0001 C CNN
+F 3 "~" V 9100 5250 50  0001 C CNN
+	1    9100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 5D75D1AC
+P 10100 5250
+F 0 "D21" V 10146 5182 50  0000 R CNN
+F 1 "D_Small" V 10055 5182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 10100 5250 50  0001 C CNN
+F 3 "~" V 10100 5250 50  0001 C CNN
+	1    10100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 5D75D1B2
+P 11100 5250
+F 0 "D22" V 11146 5182 50  0000 R CNN
+F 1 "D_Small" V 11055 5182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 11100 5250 50  0001 C CNN
+F 3 "~" V 11100 5250 50  0001 C CNN
+	1    11100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 5D75D1BE
+P 13100 5250
+F 0 "D23" V 13146 5182 50  0000 R CNN
+F 1 "D_Small" V 13055 5182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 13100 5250 50  0001 C CNN
+F 3 "~" V 13100 5250 50  0001 C CNN
+	1    13100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 5D7603DD
+P 2100 6250
+F 0 "D24" V 2146 6182 50  0000 R CNN
+F 1 "D_Small" V 2055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 2100 6250 50  0001 C CNN
+F 3 "~" V 2100 6250 50  0001 C CNN
+	1    2100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D25
+U 1 1 5D7603E3
+P 3100 6250
+F 0 "D25" V 3146 6182 50  0000 R CNN
+F 1 "D_Small" V 3055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 3100 6250 50  0001 C CNN
+F 3 "~" V 3100 6250 50  0001 C CNN
+	1    3100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 5D7603E9
+P 4100 6250
+F 0 "D26" V 4146 6182 50  0000 R CNN
+F 1 "D_Small" V 4055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 4100 6250 50  0001 C CNN
+F 3 "~" V 4100 6250 50  0001 C CNN
+	1    4100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 5D7603EF
+P 5100 6250
+F 0 "D27" V 5146 6182 50  0000 R CNN
+F 1 "D_Small" V 5055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 5100 6250 50  0001 C CNN
+F 3 "~" V 5100 6250 50  0001 C CNN
+	1    5100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 5D7603F5
+P 6100 6250
+F 0 "D28" V 6146 6182 50  0000 R CNN
+F 1 "D_Small" V 6055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 6100 6250 50  0001 C CNN
+F 3 "~" V 6100 6250 50  0001 C CNN
+	1    6100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D29
+U 1 1 5D7603FB
+P 7100 6250
+F 0 "D29" V 7146 6182 50  0000 R CNN
+F 1 "D_Small" V 7055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 7100 6250 50  0001 C CNN
+F 3 "~" V 7100 6250 50  0001 C CNN
+	1    7100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 5D760401
+P 8100 6250
+F 0 "D30" V 8146 6182 50  0000 R CNN
+F 1 "D_Small" V 8055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 8100 6250 50  0001 C CNN
+F 3 "~" V 8100 6250 50  0001 C CNN
+	1    8100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 5D760407
+P 9100 6250
+F 0 "D31" V 9146 6182 50  0000 R CNN
+F 1 "D_Small" V 9055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 9100 6250 50  0001 C CNN
+F 3 "~" V 9100 6250 50  0001 C CNN
+	1    9100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 5D76040D
+P 10100 6250
+F 0 "D32" V 10146 6182 50  0000 R CNN
+F 1 "D_Small" V 10055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 10100 6250 50  0001 C CNN
+F 3 "~" V 10100 6250 50  0001 C CNN
+	1    10100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 5D760413
+P 11100 6250
+F 0 "D33" V 11146 6182 50  0000 R CNN
+F 1 "D_Small" V 11055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 11100 6250 50  0001 C CNN
+F 3 "~" V 11100 6250 50  0001 C CNN
+	1    11100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 5D760419
+P 12100 6250
+F 0 "D34" V 12146 6182 50  0000 R CNN
+F 1 "D_Small" V 12055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 12100 6250 50  0001 C CNN
+F 3 "~" V 12100 6250 50  0001 C CNN
+	1    12100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 5D76041F
+P 13100 6250
+F 0 "D35" V 13146 6182 50  0000 R CNN
+F 1 "D_Small" V 13055 6182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 13100 6250 50  0001 C CNN
+F 3 "~" V 13100 6250 50  0001 C CNN
+	1    13100 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 5D762C56
+P 2100 7250
+F 0 "D36" V 2146 7182 50  0000 R CNN
+F 1 "D_Small" V 2055 7182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 2100 7250 50  0001 C CNN
+F 3 "~" V 2100 7250 50  0001 C CNN
+	1    2100 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D37
+U 1 1 5D762C5C
+P 3100 7250
+F 0 "D37" V 3146 7182 50  0000 R CNN
+F 1 "D_Small" V 3055 7182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 3100 7250 50  0001 C CNN
+F 3 "~" V 3100 7250 50  0001 C CNN
+	1    3100 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D38
+U 1 1 5D762C68
+P 5100 7250
+F 0 "D38" V 5146 7182 50  0000 R CNN
+F 1 "D_Small" V 5055 7182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 5100 7250 50  0001 C CNN
+F 3 "~" V 5100 7250 50  0001 C CNN
+	1    5100 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D39
+U 1 1 5D762C6E
+P 6100 7250
+F 0 "D39" V 6146 7182 50  0000 R CNN
+F 1 "D_Small" V 6055 7182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 6100 7250 50  0001 C CNN
+F 3 "~" V 6100 7250 50  0001 C CNN
+	1    6100 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D40
+U 1 1 5D762C7A
+P 9100 7250
+F 0 "D40" V 9146 7182 50  0000 R CNN
+F 1 "D_Small" V 9055 7182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 9100 7250 50  0001 C CNN
+F 3 "~" V 9100 7250 50  0001 C CNN
+	1    9100 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D41
+U 1 1 5D762C86
+P 10100 7250
+F 0 "D41" V 10146 7182 50  0000 R CNN
+F 1 "D_Small" V 10055 7182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 10100 7250 50  0001 C CNN
+F 3 "~" V 10100 7250 50  0001 C CNN
+	1    10100 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D42
+U 1 1 5D762C98
+P 13100 7250
+F 0 "D42" V 13146 7182 50  0000 R CNN
+F 1 "D_Small" V 13055 7182 50  0000 R CNN
+F 2 "kbd:D3_TH" V 13100 7250 50  0001 C CNN
+F 3 "~" V 13100 7250 50  0001 C CNN
+	1    13100 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13100 7500 13100 7350
+Wire Wire Line
+	1900 7500 2100 7500
+Wire Wire Line
+	10100 7500 10100 7350
+Connection ~ 10100 7500
+Wire Wire Line
+	10100 7500 13100 7500
+Wire Wire Line
+	6100 7350 6100 7500
+Connection ~ 6100 7500
+Wire Wire Line
+	5100 7350 5100 7500
+Connection ~ 5100 7500
+Wire Wire Line
+	5100 7500 6100 7500
+Wire Wire Line
+	3100 7350 3100 7500
+Connection ~ 3100 7500
+Wire Wire Line
+	3100 7500 5100 7500
+Wire Wire Line
+	2100 7350 2100 7500
+Connection ~ 2100 7500
+Wire Wire Line
+	2100 7500 3100 7500
+Wire Wire Line
+	2100 7150 2100 7000
+Wire Wire Line
+	3100 7150 3100 7000
+Wire Wire Line
+	5100 7150 5100 7000
+Wire Wire Line
+	6100 7150 6100 7000
+Wire Wire Line
+	9100 7150 9100 7000
+Wire Wire Line
+	10100 7150 10100 7000
+Wire Wire Line
+	13100 7150 13100 7000
+Wire Wire Line
+	1900 6500 2100 6500
+Wire Wire Line
+	13100 6500 13100 6350
+Wire Wire Line
+	12100 6350 12100 6500
+Connection ~ 12100 6500
+Wire Wire Line
+	12100 6500 13100 6500
+Wire Wire Line
+	11100 6350 11100 6500
+Connection ~ 11100 6500
+Wire Wire Line
+	11100 6500 12100 6500
+Wire Wire Line
+	10100 6350 10100 6500
+Connection ~ 10100 6500
+Wire Wire Line
+	10100 6500 11100 6500
+Wire Wire Line
+	9100 6350 9100 6500
+Connection ~ 9100 6500
+Wire Wire Line
+	9100 6500 10100 6500
+Wire Wire Line
+	8100 6350 8100 6500
+Connection ~ 8100 6500
+Wire Wire Line
+	8100 6500 9100 6500
+Wire Wire Line
+	7100 6350 7100 6500
+Connection ~ 7100 6500
+Wire Wire Line
+	7100 6500 8100 6500
+Wire Wire Line
+	6100 6350 6100 6500
+Connection ~ 6100 6500
+Wire Wire Line
+	6100 6500 7100 6500
+Wire Wire Line
+	5100 6350 5100 6500
+Connection ~ 5100 6500
+Wire Wire Line
+	5100 6500 6100 6500
+Wire Wire Line
+	4100 6350 4100 6500
+Connection ~ 4100 6500
+Wire Wire Line
+	4100 6500 5100 6500
+Wire Wire Line
+	3100 6350 3100 6500
+Connection ~ 3100 6500
+Wire Wire Line
+	3100 6500 4100 6500
+Wire Wire Line
+	2100 6350 2100 6500
+Connection ~ 2100 6500
+Wire Wire Line
+	2100 6500 3100 6500
+Wire Wire Line
+	2100 6150 2100 6000
+Wire Wire Line
+	3100 6150 3100 6000
+Wire Wire Line
+	4100 6150 4100 6000
+Wire Wire Line
+	5100 6150 5100 6000
+Wire Wire Line
+	6100 6150 6100 6000
+Wire Wire Line
+	7100 6150 7100 6000
+Wire Wire Line
+	9100 6150 9100 6000
+Wire Wire Line
+	10100 6150 10100 6000
+Wire Wire Line
+	11100 6150 11100 6000
+Wire Wire Line
+	12100 6150 12100 6000
+Wire Wire Line
+	13100 6150 13100 6000
+Wire Wire Line
+	13100 5500 13100 5350
+Wire Wire Line
+	1900 5500 2100 5500
+Wire Wire Line
+	11100 5350 11100 5500
+Connection ~ 11100 5500
+Wire Wire Line
+	11100 5500 13100 5500
+Wire Wire Line
+	10100 5350 10100 5500
+Connection ~ 10100 5500
+Wire Wire Line
+	10100 5500 11100 5500
+Wire Wire Line
+	9100 5350 9100 5500
+Connection ~ 9100 5500
+Wire Wire Line
+	9100 5500 10100 5500
+Wire Wire Line
+	8100 5350 8100 5500
+Connection ~ 8100 5500
+Wire Wire Line
+	8100 5500 9100 5500
+Wire Wire Line
+	7100 5350 7100 5500
+Connection ~ 7100 5500
+Wire Wire Line
+	7100 5500 8100 5500
+Wire Wire Line
+	6100 5350 6100 5500
+Connection ~ 6100 5500
+Wire Wire Line
+	6100 5500 7100 5500
+Wire Wire Line
+	5100 5350 5100 5500
+Connection ~ 5100 5500
+Wire Wire Line
+	5100 5500 6100 5500
+Wire Wire Line
+	4100 5350 4100 5500
+Connection ~ 4100 5500
+Wire Wire Line
+	4100 5500 5100 5500
+Wire Wire Line
+	3100 5350 3100 5500
+Connection ~ 3100 5500
+Wire Wire Line
+	3100 5500 4100 5500
+Wire Wire Line
+	2100 5350 2100 5500
+Connection ~ 2100 5500
+Wire Wire Line
+	2100 5500 3100 5500
+Wire Wire Line
+	2100 5150 2100 5000
+Wire Wire Line
+	3100 5150 3100 5000
+Wire Wire Line
+	4100 5150 4100 5000
+Wire Wire Line
+	5100 5150 5100 5000
+Wire Wire Line
+	6100 5000 6100 5150
+Wire Wire Line
+	7100 5150 7100 5000
+Wire Wire Line
+	8100 5150 8100 5000
+Wire Wire Line
+	9100 5150 9100 5000
+Wire Wire Line
+	10100 5150 10100 5000
+Wire Wire Line
+	11100 5150 11100 5000
+Wire Wire Line
+	13100 5150 13100 5000
+Wire Wire Line
+	1900 4500 2100 4500
+Wire Wire Line
+	13100 4500 13100 4350
+Wire Wire Line
+	13100 4150 13100 4000
+Wire Wire Line
+	12100 4500 12100 4350
+Connection ~ 12100 4500
+Wire Wire Line
+	12100 4500 13100 4500
+Wire Wire Line
+	12100 4150 12100 4000
+Wire Wire Line
+	11100 4500 11100 4350
+Connection ~ 11100 4500
+Wire Wire Line
+	11100 4500 12100 4500
+Wire Wire Line
+	11100 4150 11100 4000
+Wire Wire Line
+	10100 4000 10100 4150
+Wire Wire Line
+	10100 4350 10100 4500
+Connection ~ 10100 4500
+Wire Wire Line
+	10100 4500 11100 4500
+Wire Wire Line
+	9100 4000 9100 4150
+Wire Wire Line
+	9100 4350 9100 4500
+Connection ~ 9100 4500
+Wire Wire Line
+	9100 4500 10100 4500
+Wire Wire Line
+	8100 4350 8100 4500
+Connection ~ 8100 4500
+Wire Wire Line
+	8100 4500 9100 4500
+Wire Wire Line
+	8100 4150 8100 4000
+Wire Wire Line
+	7100 4350 7100 4500
+Connection ~ 7100 4500
+Wire Wire Line
+	7100 4500 8100 4500
+Wire Wire Line
+	7100 4150 7100 4000
+Wire Wire Line
+	6100 4150 6100 4000
+Wire Wire Line
+	6100 4350 6100 4500
+Connection ~ 6100 4500
+Wire Wire Line
+	6100 4500 7100 4500
+Wire Wire Line
+	5100 4350 5100 4500
+Connection ~ 5100 4500
+Wire Wire Line
+	5100 4500 6100 4500
+Wire Wire Line
+	5100 4150 5100 4000
+Wire Wire Line
+	4100 4350 4100 4500
+Connection ~ 4100 4500
+Wire Wire Line
+	4100 4500 5100 4500
+Wire Wire Line
+	4100 4150 4100 4000
+Wire Wire Line
+	3100 4350 3100 4500
+Connection ~ 3100 4500
+Wire Wire Line
+	3100 4500 4100 4500
+Wire Wire Line
+	3100 4000 3100 4150
+Wire Wire Line
+	2100 4350 2100 4500
+Connection ~ 2100 4500
+Wire Wire Line
+	2100 4500 3100 4500
+Wire Wire Line
+	2100 4000 2100 4150
+Wire Wire Line
+	1500 7000 1500 6000
+Connection ~ 1500 4000
+Wire Wire Line
+	1500 4000 1500 3500
+Connection ~ 1500 5000
+Wire Wire Line
+	1500 5000 1500 4000
+Connection ~ 1500 6000
+Wire Wire Line
+	1500 6000 1500 5000
+Wire Wire Line
+	2500 3500 2500 4000
+Connection ~ 2500 4000
+Wire Wire Line
+	2500 4000 2500 5000
+Connection ~ 2500 5000
+Wire Wire Line
+	2500 5000 2500 6000
+Connection ~ 2500 6000
+Wire Wire Line
+	2500 6000 2500 7000
+Wire Wire Line
+	4500 7000 4500 6000
+Connection ~ 4500 4000
+Wire Wire Line
+	4500 4000 4500 3500
+Connection ~ 4500 5000
+Wire Wire Line
+	4500 5000 4500 4000
+Connection ~ 4500 6000
+Wire Wire Line
+	4500 6000 4500 5000
+Wire Wire Line
+	3500 3500 3500 4000
+Connection ~ 3500 4000
+Wire Wire Line
+	3500 4000 3500 5000
+Connection ~ 3500 5000
+Wire Wire Line
+	3500 5000 3500 6000
+Wire Wire Line
+	5500 7000 5500 6000
+Connection ~ 5500 4000
+Wire Wire Line
+	5500 4000 5500 3500
+Connection ~ 5500 5000
+Wire Wire Line
+	5500 5000 5500 4000
+Connection ~ 5500 6000
+Wire Wire Line
+	5500 6000 5500 5000
+Wire Wire Line
+	6500 3500 6500 4000
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 4000 6500 5000
+Connection ~ 6500 5000
+Wire Wire Line
+	6500 5000 6500 6000
+Connection ~ 7500 4000
+Wire Wire Line
+	7500 4000 7500 3500
+Connection ~ 7500 5000
+Wire Wire Line
+	7500 5000 7500 4000
+Wire Wire Line
+	7500 6000 7500 5000
+Wire Wire Line
+	8500 3500 8500 4000
+Connection ~ 8500 4000
+Wire Wire Line
+	8500 4000 8500 5000
+Connection ~ 8500 5000
+Wire Wire Line
+	8500 5000 8500 6000
+Wire Wire Line
+	9500 7000 9500 6000
+Connection ~ 9500 4000
+Wire Wire Line
+	9500 4000 9500 3500
+Connection ~ 9500 5000
+Wire Wire Line
+	9500 5000 9500 4000
+Connection ~ 9500 6000
+Wire Wire Line
+	9500 6000 9500 5000
+Wire Wire Line
+	10500 3500 10500 4000
+Connection ~ 10500 4000
+Wire Wire Line
+	10500 4000 10500 5000
+Connection ~ 10500 5000
+Wire Wire Line
+	10500 5000 10500 6000
+Wire Wire Line
+	11500 6000 11500 4000
+Connection ~ 11500 4000
+Wire Wire Line
+	11500 4000 11500 3500
+Wire Wire Line
+	12500 3500 12500 4000
+Connection ~ 12500 4000
+Wire Wire Line
+	12500 4000 12500 5000
+Connection ~ 12500 5000
+Wire Wire Line
+	12500 5000 12500 6000
+Connection ~ 12500 6000
+Wire Wire Line
+	12500 6000 12500 7000
+Wire Wire Line
+	8100 6150 8100 6000
+Wire Wire Line
+	9100 7350 9100 7500
+Connection ~ 9100 7500
+Wire Wire Line
+	9100 7500 10100 7500
+Wire Wire Line
+	8500 7000 8500 6000
+Connection ~ 8500 6000
+Wire Wire Line
+	6100 7500 9100 7500
+Text GLabel 2900 1900 2    50   Input ~ 0
+col0
+Text GLabel 2900 2200 2    50   Input ~ 0
+col1
+Text GLabel 2900 2500 2    50   Input ~ 0
+col3
+Text GLabel 2900 2400 2    50   Input ~ 0
+col4
+Text GLabel 2900 2300 2    50   Input ~ 0
+col5
+Text GLabel 1500 2100 0    50   Input ~ 0
+col6
+Text GLabel 1500 2200 0    50   Input ~ 0
+col7
+Text GLabel 2900 2000 2    50   Input ~ 0
+row1
+Text GLabel 2900 2100 2    50   Input ~ 0
+row0
+Text GLabel 1500 1900 0    50   Input ~ 0
+row2
+Text GLabel 1500 2000 0    50   Input ~ 0
+row3
+$Comp
+L kbd:ProMicro U1
+U 1 1 5D6502AC
+P 2200 2250
+F 0 "U1" H 2200 3287 60  0000 C CNN
+F 1 "ProMicro" H 2200 3181 60  0000 C CNN
+F 2 "kbd:ProMicro_v3" H 2300 1200 60  0001 C CNN
+F 3 "" H 2300 1200 60  0000 C CNN
+	1    2200 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1500 2300 0    50   Input ~ 0
+col8
+Text GLabel 1500 2400 0    50   Input ~ 0
+col9
+Text GLabel 1500 2500 0    50   Input ~ 0
+col10
+Text GLabel 1500 2600 0    50   Input ~ 0
+col11
+Text GLabel 3500 3500 0    50   Input ~ 0
+col2
+Text GLabel 2900 2600 2    50   Input ~ 0
+col2
+NoConn ~ 2900 1500
+NoConn ~ 1500 1500
+NoConn ~ 1500 1600
+$EndSCHEMATC
